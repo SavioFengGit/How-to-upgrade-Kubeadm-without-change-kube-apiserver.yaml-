@@ -9,11 +9,15 @@ In our case, we will use a yaml type file.  <br>
 The file name is not arbitrary. It must follow the format: target[suffix] + patchtype.extension.  <br>
 My configuration file is named: **kube-apiserver0+merge.yaml**
 
-# Command to upgrade Kubeadm with patches 
+### Command to upgrade Kubeadm with patches 
  - sudo kubeadm apply latest --patches path_folder_file_yaml
 
-<br> <br>
 
+### Check the kube-apiserver.yaml 
+ - sudo cat /etc/kubernetes/manifests/kube-apiserver.yaml 
+
+
+<br><br>
 
 #Author
 <b>Xiao Li Savio Feng</b>
