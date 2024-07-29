@@ -10,12 +10,14 @@ The file name is not arbitrary. It must follow the format: target[suffix] + patc
 My configuration file is named: **kube-apiserver0+merge.yaml**
 
 ### Command to upgrade Kubeadm with patches 
- - sudo kubeadm apply latest --patches path_folder_file_yaml
-
+```
+sudo kubeadm apply latest --patches path_folder_file_yaml
+```
 
 ### Check the kube-apiserver.yaml 
- - sudo cat /etc/kubernetes/manifests/kube-apiserver.yaml 
-
+```
+sudo cat /etc/kubernetes/manifests/kube-apiserver.yaml 
+```
 
 <br><br>
 
